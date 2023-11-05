@@ -1,0 +1,24 @@
+# write a code that generates a random number and then gives the user 5 chances to guess it 
+
+import random 
+
+number = random.randint(1,25) 
+
+number_of_guesses=0  # counter 
+
+while number_of_guesses < 5 :
+    print('Guess a number between 1 and 25 :  ')
+    guess = input()
+    guess = int(guess) 
+    number_of_guesses +=1
+    if guess == number :
+        break 
+    elif number_of_guesses == 5 :
+        break 
+    else : 
+        print('Try again!')
+if guess == number : 
+    print ('correct ! you guessed the number in ' + str(number_of_guesses)+'tries!')
+    
+else : 
+    print('you did not guess the number , the number is :' + str(number) )   
