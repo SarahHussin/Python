@@ -1,0 +1,11 @@
+# Iterable data types : 
+
+Strings: ‘chimichurri’
+
+Lists: [1, 2, 3, 4, 5, 6]
+
+Tuples: (1, 2, 3, 4, 5)
+
+Dictionaries: {‘Name’: ‘Anita’, ‘Age’: 77} 
+
+Sets: {1, 4, 14, 33}
