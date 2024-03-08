@@ -1,4 +1,8 @@
+# PROBLEM : 
+
 # write a code that generates a random number and then gives the user 5 chances to guess it 
+
+# SOLUTION : 
 
 import random 
 
