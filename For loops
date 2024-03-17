@@ -1,3 +1,9 @@
+
+# Example of for loop with range() function
+for x in range(5):
+    print(x)
+____________________________________________________________________________________________________
+
 # Example of reading in a .txt file line by line with a for loop
 
 with open('zen_of_python.txt') as f:
