@@ -1,0 +1,6 @@
+def to_dollars_cents(price):
+
+    dollars = int(price // 1)
+    cents = round(price % 1 * 100)
+
+    return dollars, cents
